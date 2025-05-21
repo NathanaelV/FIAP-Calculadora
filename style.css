@@ -42,7 +42,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.display-input {
+.calculator-display {
   width: 100%;
   padding: 10px;
   font-size: 2em;
@@ -54,7 +54,7 @@ footer {
   border-radius: 5px;
 }
 
-.btn {
+.button {
   padding: 20px;
   font-size: 1.5em;
   border: none;
@@ -63,29 +63,29 @@ footer {
   border-radius: 5px;
 }
 
-.btn:hover {
+.button:hover {
   background-color: #e0e0e0;
 }
 
-.btn:active {
+.button:active {
   background-color: #d0d0d0;
 }
 
-.btn.equal {
+.button.equal {
   grid-row: span 4;
   background-color: orange;
 }
 
-.btn.equal:hover {
+.button.equal:hover {
   background-color: darkorange;
 }
 
-.btn.equal:active {
+.button.equal:active {
   background-color: orangered;
 }
 
 @media (max-width: 400px) {
-  .btn {
+  .button {
     font-size: 1em;
   }
 }
